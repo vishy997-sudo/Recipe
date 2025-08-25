@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navlist{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    
+    align-items: center;
+    width: 100%; 
+    padding: 15px;
+    
+
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    overflow-x: none;
+    background-image: linear-gradient(to right, #FFD194, #D1913C);
+}
+
+.navContainer{
+    width: 100vw;
+    /* background-color: rgb(150, 238, 209); */
+   background-color:  linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+
+    background-image: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+    min-height: 80px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+}
+nav{
+    width: 100%;
+}
+#navlogo{
+    font-size:35px ;
+    color: brown;
+    display: flex;
+    /* justify-content: start;
+    align-items: start; */
+   
+    
+    
+}
+a{
+    text-decoration: none;
+   color: azure;
+}
+#navitems{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+  
+    
+}
+.footerbox{
+    color: azure;
+    text-align: center;
+    min-height: 35px;
+    
+
+
+    
+}
+.footerbox p{
+    font-size: 25px;
+}
+
+.contentbox{
+    width:80% ;
+    margin: auto;
+    /* border: 1px solid black; */
+   border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 100px;
+    padding: 2rem;
+    box-shadow: 1px 1px 30px  black;
+   
+
+}
+#img1{
+    border-radius: 35px;
+    border:  solid rgb(163, 163, 77) 3px;
+    transition: all 0.6s linear; 
+    box-shadow: 1px 1px 10px black;
+}
+#img2{
+    border: solid rgb(163, 163, 77) 3px;
+     border-radius: 35px;
+     transition: all 0.6s linear;
+     box-shadow: 1px 1px 10px black;
+}
+#img1:hover{
+    transform: scale(1.1);
+    
+}
+#img2:hover{
+    transform: scale(1.1);
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.rightbox{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+.ing2{
+    font-size: 17px;
+}
+.rec2{
+    font-size: 17px;
+}
+.ing1{
+    font-size: 17px;
+}
+.rec1{
+    font-size: 17px;
+}
+.leftbox h2{
+    color: #742301;
+    
+}
+.rightbox .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 200px; 
+    background-color: rgba(0, 0, 0, 0.711);
+    border-radius:35px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s linear;
+
+}
+.rightbox:hover .overlay{
+    opacity: 1;
+}
+.rightbox .overlay span{
+    color: white;
+    font-size: 1.2rem;
+}
+
+
